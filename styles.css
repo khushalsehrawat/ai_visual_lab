@@ -1,0 +1,45 @@
+.workflow-container {
+      display: flex;
+      gap: 40px;
+      will-change: transform;
+      padding: 0 10vw;
+    }
+
+    .step {
+      background: #131b2d;
+      padding: 16px 24px;
+      border-radius: 12px;
+      border: 1px solid #2c3a57;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-size: 0.95em;
+      font-weight: 500;
+      width: 180px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step.final {
+      background: linear-gradient(135deg, #2f4eff, #00d4ff);
+      color: #fff;
+      font-weight: 600;
+      border-radius: 50px;
+    }
+
+    .arrow {
+      font-size: 28px;
+      color: #888;
+      flex-shrink: 0;
+    }
+
+    /* Placeholder section below */
+    .next-section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      background: #111622;
+    }
