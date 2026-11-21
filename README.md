@@ -111,4 +111,6 @@ git push origin main
 
 ## 📃 License
 
+Develop & Maintained by - www.thebenzzcreations.com
+
 This project is licensed under the MIT License. Feel free to reuse and modify for your personal portfolio.
